@@ -1,0 +1,282 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    /* background: #FFFFFF; */
+    background-image: url('../assets/logo-nirvana.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment:scroll; /* Mantiene la imagen fija mientras se desplaza la página */
+
+}
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    
+    
+
+    width: 100%;
+    height: 96px;
+
+    background: rgb(51, 49, 49);
+    box-shadow: 0px 7px 0.9px rgba(233, 217, 3, 0.993);
+    color: yellow;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #000;
+
+}
+
+.products-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 15px;
+    margin: 20px 20px 20px 0px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    width: 678px;
+    height: 650px;
+
+    background: #181717;
+    box-shadow: -12px 10px 5.8px rgba(0, 0, 0, 0.20);
+    overflow-y: scroll;
+    scrollbar-width: thin; 
+    scrollbar-color: yellow #f0f0f0;
+
+}
+
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    
+    gap: 10px;
+    width: 196px;
+    height: 270px;
+
+    background: yellow;
+    border: 3px solid #000000;
+    box-shadow: -5px 6px 3.3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.img-container {
+
+    box-sizing: border-box;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    /* width: 176px;
+    height: 174px; */
+
+
+}
+
+.imagen-producto {
+    box-sizing: border-box;
+
+    width: 176px;
+    height: 174px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+
+}
+
+.card-container--info {
+    
+    width: 176px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #171718;
+    flex: none;
+    margin-bottom: 300px;
+    gap: 10px;
+
+
+}
+
+.card-container--value {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 21px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1d1c1f;
+
+}
+
+.delete-button {
+    margin: 0px;
+    padding: 3px;
+    
+
+}
+
+.trash-icon {
+    width: 80%;
+    height: 80%;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENEDOR FORMULARIO */
+
+.add-product-container{
+    margin: 20px;
+    margin-top: 0px;
+    color: #000;
+    
+}
+
+.form-container {
+    flex: 1;
+    background-color: #181717;
+    height: 50%;
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+    gap: 15px 10px;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: -12px 10px 5.8px rgba(0, 0, 0, 0.20);
+}
+
+
+
+/* Estilos para los inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+
+#botton-submit {
+    background-color: yellow;
+}
+
+#botton-clear {
+    background-color:yellow;
+}
+
+.footer-container {
+    justify-content: center;
+    color: #000;
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    body{
+        background-image:  url('https://i.pinimg.com/564x/f2/27/c7/f227c7d75d783318ba286033a0e65714.jpg');
+        background-repeat: repeat;
+    }
+
+    .main-container {
+            flex-direction: column;
+            align-items: center;
+            grid-gap: 20px; /* Espacio entre las secciones */
+            width: 100%;
+            color: rgb(14, 13, 13);
+            
+        }
+    
+        .products-container,
+        .add-product-container {
+            width: 100%;
+            margin: 10px 0;
+            order: -1; /* Cambia el orden: sección 2 primero */
+            justify-content:center;
+            color:rgb(15, 15, 15);
+        }
+
+        .button-container{
+            display: flex;
+            gap: 10px 10px;
+            flex-direction: column;
+        }
+    
+        
+
+    }

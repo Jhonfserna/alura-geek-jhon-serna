@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>ALURA GEEK</title>
+
+</head>
+<body>
+    <header class="header">
+        <h1>ALURA GEEK</h1>
+    </header>
+
+    <main class="main-container">
+        <section>
+            <h1>Mis productos:</h1>
+            <div data-product class="products-container">
+            </div>
+        </section>
+
+        <section class="add-product-container">
+            <h1>Agregar Producto:</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="Name..." type="text" required>
+                <input data-price placeholder="Price..." type="number" required>
+                <input data-image placeholder="Image (url)..." type="url" required>
+                
+                <div class="button-container">
+                    <button type="submit" id="botton-submit">Enviar</button>
+                    <button type="reset" id="botton-clear">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <p>&copy; 2024 Jhon Fredy Serna</p>
+    </footer>
+    <script type="module" src="./js/controllers/main.js"></script>
+</body>
+</html>

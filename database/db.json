@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "name": "Led Zeppelin",
+      "price": "20",
+      "image": "https://i.pinimg.com/736x/f5/3c/9a/f53c9ae46b07cc90577ee6f08414145f.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Nirvana",
+      "price": "25",
+      "image": "https://i.pinimg.com/474x/4f/60/b6/4f60b68d37c14e439165efea79bfa64e.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Kiss",
+      "price": "30",
+      "image": "https://i.pinimg.com/236x/0e/ae/3c/0eae3c49aa4c2c2fced51f987eb7d932.jpg",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Metallica",
+      "price": "55",
+      "image": "https://thedarkmelody.com/wp-content/uploads/2023/04/metallica_logo_by_omenev_d2ctmwa-fullview.jpg"
+    },
+    {
+      "id": "8d0b",
+      "name": "Red Hot Chili Peppers",
+      "price": "30",
+      "image": "https://i.pinimg.com/736x/05/a4/ac/05a4acae1a48d76296a587b44b94fec0.jpg"
+    },
+    {
+      "id": "9298",
+      "name": "Rolling Stones",
+      "price": "50",
+      "image": "https://brandemia.org/contenido/subidas/2012/07/the-rolling-stones-logo.webp"
+    },
+    {
+      "id": "b822",
+      "name": "Iron Maiden",
+      "price": "25",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/10-best-of-iron-maiden-band-logo-nongki-marceline-aureli.jpg"
+    },
+    {
+      "id": "4faa",
+      "name": "Queen",
+      "price": "30",
+      "image": "https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2018/05/queen-band-i14.jpg"
+    }
+  ]
+}

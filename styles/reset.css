@@ -1,0 +1,82 @@
+/* Reset styles for a baseline design */
+
+* {
+    font-family: "Press Start 2P", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Press Start 2P", Arial, sans-serif;
+    /* Set a default font for the body */
+    line-height: 1.6;
+    /* Improve readability with some line spacing */
+    font-size: 16px;
+    /* Set a base font size */
+    color: #333;
+    /* Set a default text color */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio for images */
+    display: block;
+    /* Display images as block-level elements */
+}
+
+a {
+    text-decoration: none;
+    /* Remove default underline from links */
+    color: inherit;
+    /* Inherit text color from parent element */
+}
+
+ul,
+ol {
+    list-style: none;
+    /* Remove default list style */
+    padding: 0;
+}
+
+button {
+    border: none;
+    /* Remove default button borders */
+    cursor: pointer;
+    /* Indicate clickable elements */
+    background-color: transparent;
+    /* Remove default button background */
+    padding: 5px 10px;
+    /* Set some padding for buttons */
+}
+
+input {
+    border: 1px solid #ccc;
+    /* Set a basic border for inputs */
+    padding: 5px;
+    /* Add some padding for inputs */
+}
+
+form {
+    display: flex;
+    /* Allow form elements to sit side-by-side */
+    flex-direction: column;
+    /* Stack form elements vertically */
+}
+
+.header,
+.main-container,
+.footer-container,
+.section,
+.card,
+.img-container,
+.card-container--info,
+.card-container--value,
+.button-container {
+    /* Reset margins and padding for specific classes 
+       You can adjust this section to target more elements 
+       as needed in your design */
+    margin: 0;
+    padding: 0;
+}
