@@ -65,7 +65,7 @@ form.addEventListener("submit", (event) => {
         .createProducts(name, price, image)
         .then((res) => {
             const newCard = createCard(res.name, res.price, res.image, res.id);
-            productContainer(appendChild(newCard));
+            productContainer.appendChild(newCard);
         })
         .catch((err) => console.log(err));
 });

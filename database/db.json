@@ -47,6 +47,13 @@
       "name": "Queen",
       "price": "30",
       "image": "https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2018/05/queen-band-i14.jpg"
+    },
+    {
+      "id": "26d5",
+      "name": "Foo Fighters",
+      "price": "50",
+      "image": "https://th.bing.com/th/id/OIP.st74uxLB7wSZirrLU9OK3wHaHa?rs=1&pid=ImgDetMain"
     }
+
   ]
 }
