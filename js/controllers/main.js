@@ -72,21 +72,5 @@ form.addEventListener("submit", (event) => {
 
 render();
 
-// function deleteProduct(id) {
-//   const productToDelete = document.querySelector(`[data-id="${id}]"`);
-//   if (productToDelete) {
-//     productToDelete.parentElement.remove();
-//   } else {
-//     console.log(productToDelete);
-//   }
-// }
-
-// productContainer.addEventListener("click", (event) => {
-//   if (event.target.classList.contains("trash-icon")) {
-//     const productId = event.target.getAttribute("[data-id]");
-//     deleteProduct(productId);
-//   }
-//   console.log(event.target.getAttribute("[data-id]"));
-// });
 
 
