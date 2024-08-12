@@ -1,5 +1,6 @@
 import { servicesProducts } from "../services/product-services.js";
 
+
 const productContainer = document.querySelector("[data-product]");
 const form = document.querySelector("[data-form]");
 
