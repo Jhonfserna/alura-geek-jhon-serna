@@ -1,11 +1,11 @@
 const productList = () => {
-    return fetch("http://localhost:3000/products")
+    return fetch("https://my-json-server.typicode.com/Jhonfserna/alura-geek-api/products")
         .then((res) => res.json())
         .catch((err) => console.log(err));
 };
 
 const createProducts = (name, price, image) => {
-    return fetch("http://localhost:3000/products", {
+    return fetch("https://my-json-server.typicode.com/Jhonfserna/alura-geek-api/products", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -24,7 +24,7 @@ const createProducts = (name, price, image) => {
 // eliminar una tarjeta:
 
 const deleteProduct = (id) => {
-    return fetch(`http://localhost:3000/products/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/Jhonfserna/alura-geek-api/products/${id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json",
